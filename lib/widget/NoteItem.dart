@@ -16,14 +16,14 @@ class NoteItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             ListTile(
-              title: Text("Flutter Tips",style: TextStyle(color: Colors.black,fontSize: 25),),
+              title: Text("Flutter Tips",style: TextStyle(color: Colors.black,fontSize: 20),),
               subtitle: Padding(
                 padding: const EdgeInsets.only(top: 10),
-                child: Text("Build your career with thar wat samy",style: TextStyle(color: Colors.black54,fontSize: 20),),
+                child: Text("Build your career with thar wat samy",style: TextStyle(color: Colors.black54,fontSize: 17),),
               ),
               trailing: IconButton(
                   onPressed: (){},
-                  icon: Icon(Icons.delete,color: Colors.black,size: 30,)),
+                  icon: Icon(Icons.delete,color: Colors.black,size: 25,)),
             ),
             Text("May 05 ,2023",style: TextStyle(color: Colors.black54),)
 
