@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+class CustomButton extends StatelessWidget {
+  const CustomButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  Container(
+      width: MediaQuery.of(context).size.width,
+      height: 55,
+      decoration: BoxDecoration(
+          color: Colors.amber,
+          borderRadius: BorderRadius.circular(8)
+      ),
+      child: const Center(
+        child: Text("Sava",style: TextStyle(color: Colors.black,fontSize: 16),),
+      ),
+    );
+  }
+}
