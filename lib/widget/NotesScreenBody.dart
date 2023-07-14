@@ -13,7 +13,7 @@ class NotesScreen extends StatelessWidget {
       child: Column(
         children:  [
           SizedBox(height: 10,),
-          CustomAppBar(),
+          CustomAppBar(title: "Note",icon: Icons.search,),
           SizedBox(height: 15 ,),
           Expanded(child: NotesListView()),
 
